@@ -1,6 +1,6 @@
 {
   "name": "ui-router-logger",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Module logs all events from ui-router.",
   "main": "dist/ui-router-logger.js",
   "jsnext:main": "src/index.js",
@@ -37,7 +37,7 @@
     "webpack": "^1.12.13",
     "rimraf": "^2.3.4"
   },
-  "peerDependencies":{
+  "peerDependencies": {
     "angular": "^1.5.x",
     "angular-ui-router": "^0.2.x"
   },
