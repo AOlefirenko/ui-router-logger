@@ -4,4 +4,4 @@
 [![dev dependencies](https://img.shields.io/david/dev/AOlefirenko/axios.svg?style=flat-square)](https://david-dm.org/AOlefirenko/axios#
 Module logs all events from ui-router.
 
-Actually I've cut it from this project [https://github.com/tomastrajan/component-pattern-for-angular-js-1-x]
+Actually I've cut it from this project https://github.com/tomastrajan/component-pattern-for-angular-js-1-x
