@@ -10,20 +10,19 @@
   ],
   "scripts": {
     "clean": "rimraf lib dist",
-    "build:lib": "babel src --out-dir lib --source-maps",
     "build:umd": "webpack src/index.js dist/ui-router-logger.js --config webpack/webpack.config.development.js",
     "build:umd:min": "webpack src/index.js dist/ui-router-logger.min.js --config webpack/webpack.config.production.js",
-    "build": "npm run build:lib && npm run build:umd && npm run build:umd:min"
+    "build": "npm clean && npm run build:umd && npm run build:umd:min"
   },
   "npmName": "ui-router-logger",
   "author": "Andrey Olefirenko <ole.olefirenko@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oleolefirenko/ui-router-logger.git"
+    "url": "git+https://github.com/AOlefirenko/ui-router-logger.git"
   },
   "bugs": {
-    "url": "https://github.com/oleolefirenko/ui-router-logger/issues"
+    "url": "https://github.com/AOlefirenko/ui-router-logger/issues"
   },
   "keywords": [
     "ui-router-logger"
