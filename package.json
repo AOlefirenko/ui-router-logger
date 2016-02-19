@@ -1,6 +1,6 @@
 {
   "name": "ui-router-logger",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Module logs all events from ui-router.",
   "main": "dist/ui-router-logger.js",
   "jsnext:main": "src/index.js",
