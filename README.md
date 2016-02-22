@@ -6,4 +6,19 @@
 
 Module logs all events from ui-router.
 
+###Installation
+
+####npm
+
+    npm install ui-router-logger
+
+####code
+
+Just add this module to your application
+
+    angular.module('yourAppName', ['ui-router-logger'])
+
+
+###Credits
+
 Actually I've cut it from this project https://github.com/tomastrajan/component-pattern-for-angular-js-1-x
