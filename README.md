@@ -17,6 +17,16 @@ Module logs all events from ui-router.
 Just add this module to your application
 
     angular.module('yourAppName', ['ui-router-logger'])
+    
+or more complex example:
+
+    var dependencies = [
+        require('angular-ui-router')
+    ];
+    
+    if(DEBUG) dependencies.push(require('ui-router-logger'));
+    
+    angular.module('yourAppName', dependencies)
 
 
 ###Credits
