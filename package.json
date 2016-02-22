@@ -37,7 +37,7 @@
     "rimraf": "^2.3.x"
   },
   "peerDependencies": {
-    "angular": "^1.5.x",
+    "angular": "^1.4.x < 2.0.0",
     "angular-ui-router": "^0.2.x"
   },
   "devEngines": {
